@@ -1,6 +1,6 @@
-# Canvas Tasks Importer for Obsidian
+# Canvas LMS Integration
 
-This is a plugin designed to integrate tasks and assignments from Canvas LMS to Obsidian, helping you manage your academic workload more efficiently.
+This is a plugin designed to integrate tasks and assignments from Canvas LMS to Obsidian, helping you manage your academic workload more efficiently. Forked from [this Canvas LMS importer](https://github.com/jordaeday/canvas-task-importer), credit to original author where credit is due.
 
 ## Installation and Setup
 
@@ -13,15 +13,3 @@ This is a plugin designed to integrate tasks and assignments from Canvas LMS to 
 
 
 ## Usage
-
-1. **Import tasks:**
-  - Open the document where you would like to place your tasks.
-  - Open the command palette (`Ctrl + P` or `Cmd + P`) and select either "Add Canvas Tasks at Cursor" or "Replace Selection with Canvas Tasks."
-
-### Integration with Obsidian Tasks Plugin
-
- This plugin is designed to work seamlessly with the Tasks plugin. To enable this integration, ensure the document with your tasks is titled "Tasks", and the Tasks plugin should automatically detect these as tasks.
-
-## License
-
-This project is licensed under the MIT License.
