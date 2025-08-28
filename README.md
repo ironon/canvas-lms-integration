@@ -40,9 +40,10 @@ Example:
 (Note: if the ``Mirror Assignments into Folder`` feature is turned off, instead of linking to the obsidian note for that assignment, it will link to the Canvas URL for that assignment.)
 
 Options:
-- Daily Note Header: Defaults to "". meaning assignments won't be inserted at all. This is header where the canvas assignment will be placed under the daily note.
-- *Assignment Offsets: Defaults to a list with a single entry of zero. This option can be used to allow the user to put the same exact assignment in multiple daily notes, relative to its actual due date. For example, if the list contains a single entry, which is -7, the Canvas assignment will only show up in the daily note exactly 7 days before the assignment is due. If this option is set to [-7.-6,-5,-4,-3,-2,-1,0,1], the assignment will show up in every daily note a week prior to the due date, and show up in the daily note 1 day after the due date.
-- Daily Note Insert Point: Takes priority over *Daily Note Header*, and instead of inserting the assignments at a header, it will search for whatever text placeholder is put inside this field, and place the assignments in place of that placeholder.
+- **Daily Note Header**: Defaults to "". meaning assignments won't be inserted at all. This is header where the canvas assignment will be placed under the daily note.
+- **Assignment Offsets**: Defaults to a list with a single entry of zero. This option can be used to allow the user to put the same exact assignment in multiple daily notes, relative to its actual due date. For example, if the list contains a single entry, which is -7, the Canvas assignment will only show up in the daily note exactly 7 days before the assignment is due. If this option is set to [-7.-6,-5,-4,-3,-2,-1,0,1], the assignment will show up in every daily note a week prior to the due date, and show up in the daily note 1 day after the due date.
+- **Daily Note Insert Point**: Takes priority over *Daily Note Header*, and instead of inserting the assignments at a header, it will search for whatever text placeholder is put inside this field, and place the assignments in place of that placeholder.
+
 
 
 
