@@ -22,6 +22,10 @@ This plugin can be configured so that FullCalendar can interpret it's data and d
 There are a couple different mode of operation for this plugin, all of which are off by default, and must be explictly turned on. Multiple modes can be on at the same time. *The Dataview and Templater integrations will work fine, even with all of the modes off, all these modes do is just find different ways to import as-text the contents of your Canvas assignments, without the use of Dataview or Templater.*
 
 ### Mirror Assignments into Folder (Recommended) 
+This mode, for every assignment on Canvas, will mirror all assignments into the specified folder.
+
+
+
 
 ### Daily Note Inject
 This mode, for every assignment on Canvas, will go to the corrosponding daily note for when that assignment is due, and insert a Task under the specified header in the daily note with the name of the assignment.
